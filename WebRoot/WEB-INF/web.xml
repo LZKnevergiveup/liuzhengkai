@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <servlet-class>com.unsi.servlet.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegeistServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.UserRegeistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserNameSearchServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.UserNameSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LikeUserNameSearchServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.LikeUserNameSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UseridSearchServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.UseridSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_user.UserChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToSeeAllPerson</servlet-name>
+    <servlet-class>com.unsi.servlet_news.ToSeeAllPerson</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllProUpdateServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.AllProUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllProAddServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.AllProAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllProDeletServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.AllProDeletServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPersonServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.AddPersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToSeePerson</servlet-name>
+    <servlet-class>com.unsi.servlet_news.ToSeePerson</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonDeletServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.PersonDeletServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToToNewsServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.ToToNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.AddNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToSeeAllNewsServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.ToSeeAllNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsReadServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.NewsReadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToSeeNewsServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_news.ToSeeNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddscheduleServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.AddscheduleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeeAllScheduleServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.SeeAllScheduleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateScheduleServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.UpdateScheduleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletScheduleServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.DeletScheduleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddLogServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.AddLogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeeAllLogServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.SeeAllLogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateLogServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.UpdateLogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletLogServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_schedule.DeletLogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNoticeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_metting.AddNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeeAllNoticeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_metting.SeeAllNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateNoticeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_metting.UpdateNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletNoticeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet_metting.DeletNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>codeServlet</servlet-name>
+    <servlet-class>com.unsi.servlet.codeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <url-pattern>/servlet/CheckImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegeistServlet</servlet-name>
+    <url-pattern>/servlet/UserRegeistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserNameSearchServlet</servlet-name>
+    <url-pattern>/servlet/UserNameSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/servlet/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LikeUserNameSearchServlet</servlet-name>
+    <url-pattern>/servlet/LikeUserNameSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UseridSearchServlet</servlet-name>
+    <url-pattern>/servlet/UseridSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/servlet/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangeServlet</servlet-name>
+    <url-pattern>/servlet/UserChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToSeeAllPerson</servlet-name>
+    <url-pattern>/servlet/ToSeeAllPerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllProUpdateServlet</servlet-name>
+    <url-pattern>/servlet/AllProToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllProAddServlet</servlet-name>
+    <url-pattern>/servlet/AllProAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllProDeletServlet</servlet-name>
+    <url-pattern>/servlet/AllProDeletServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPersonServlet</servlet-name>
+    <url-pattern>/servlet/AddPersonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToSeePerson</servlet-name>
+    <url-pattern>/servlet/ToSeePerson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonDeletServlet</servlet-name>
+    <url-pattern>/servlet/PersonDeletServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToToNewsServlet</servlet-name>
+    <url-pattern>/servlet/ToToNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewsServlet</servlet-name>
+    <url-pattern>/servlet/AddNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToSeeAllNewsServlet</servlet-name>
+    <url-pattern>/servlet/ToSeeAllNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsReadServlet</servlet-name>
+    <url-pattern>/servlet/NewsReadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToSeeNewsServlet</servlet-name>
+    <url-pattern>/servlet/ToSeeNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddscheduleServlet</servlet-name>
+    <url-pattern>/servlet/AddscheduleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeeAllScheduleServlet</servlet-name>
+    <url-pattern>/servlet/SeeAllScheduleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateScheduleServlet</servlet-name>
+    <url-pattern>/servlet/UpdateScheduleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletScheduleServlet</servlet-name>
+    <url-pattern>/servlet/DeletScheduleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddLogServlet</servlet-name>
+    <url-pattern>/servlet/AddLogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeeAllLogServlet</servlet-name>
+    <url-pattern>/servlet/SeeAllLogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateLogServlet</servlet-name>
+    <url-pattern>/servlet/UpdateLogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletLogServlet</servlet-name>
+    <url-pattern>/servlet/DeletLogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNoticeServlet</servlet-name>
+    <url-pattern>/servlet/AddNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeeAllNoticeServlet</servlet-name>
+    <url-pattern>/servlet/SeeAllNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNoticeServlet</servlet-name>
+    <url-pattern>/servlet/UpdateNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletNoticeServlet</servlet-name>
+    <url-pattern>/servlet/DeletNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>codeServlet</servlet-name>
+    <url-pattern>/servlet/codeServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
